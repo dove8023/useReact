@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.first-color{
+    color: #222;
+}
+.second-color{
+    color: #808080;
+} 
+.red-tips-color{
+    color: #ff3333;
+}
+.detail-page{
+    border-radius: 4px;
+    width: 990px;
+    margin: 0 auto;
+}
+.detail-header{
+    padding: 0 20px;
+    font-size: 20px;
+    color: #222;
+    line-height: 60px;
+    border-bottom: 1px solid #edeef2;
+}
+.detail-content{
+    padding: 30px 100px;
+}
+.detail-content-header{
+    border-left: 4px solid #4f6584;
+    background-color: #e0e3ed;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.order-number,
+.order-date,
+.confirm-button{
+   float: left 
+}
+.order-number{
+    width: 419px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+.order-date{
+    font-size: 12px;
+    padding: 6px 15px 4px 0;
+    line-height: 15px;
+}   
+.common-button{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    background-color: #4f6584;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.detail-content-list{
+    border-top: 1px solid #edeef2;
+    overflow: hidden;
+}
+.detail-content-list li{
+    float: left;
+    border-bottom: 1px dashed  #edeef2;
+    width: 330px;
+    padding: 15px 0;
+    font-size: 16px;
+    color: #222;
+}
+.detail-content-list li:nth-child(odd){
+    margin-right: 130px
+}
+.detail-content-list .list-title{
+    display: inline-block;
+    width: 125px;
+    color: #808080;
+}
+.detail-content-files{
+    border-bottom: 1px  solid  #edeef2;
+}
+.file-title{
+    font-size: 16px;
+    padding-top: 15px;
+}
+.advice-title{
+    padding: 15px 0 10px;
+}
+.advice-text{
+    line-height: 24px;
+    font-size: 16px;
+    padding: 0 18px;
+}
+.file-list{
+    padding: 15px;
+    border-bottom: 1px dashed  #edeef2;
+    overflow: hidden;
+}   
+.file-list:last-child{
+    border-bottom: none;
+}
+.file-url,
+.file-info{
+    float: left;
+}
+.file-url{
+    width: 40px;
+    height: 40px;
+    background-color: #b2b2b2; 
+    margin-right: 10px; 
+}
+.file-download{
+    float: right;
+    line-height: 40px;
+}
+.file-download a{
+    font-size: 16px;
+    color: #4f6584;
+}
+.file-info-name{
+    font-size: 14px;
+    color: #222;
+    line-height: 20px;
+}
+.file-info-detail{
+    font-size: 12px;
+    color: #808080;
+    line-height: 20px;
+}
+.file-info-detail .padding20{
+    padding: 0 20px;
+}

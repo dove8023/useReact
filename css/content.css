@@ -1,0 +1,105 @@
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .list-item{
+        padding: 20px 10px;
+        border-bottom: 1px solid #edeef2;
+      }
+      .list-item:hover{
+        background-color: #edeef2;
+      }
+      .list-item-right{
+        float: right;
+        width: 75px;
+        line-height: 44px;
+        font-size: 14px;
+        color: #4f6584;
+      }
+      .list-item-left{
+        margin-right: 80px;
+      }
+
+      .order-title{
+        font-size: 18px;
+        overflow: hidden;
+        line-height: 20px;
+        padding-bottom: 13px;
+        color: #222;
+      }
+      .order-title span{
+        float: left;
+      }
+      .order-title-statu{
+        display: inline-block;
+        width: 6px;
+        height: 20px;
+        border-radius: 2px;
+        margin-right: 8px;
+      }
+      .order-title-statu.statu-bgcolor-blue{
+        background-color: #60bde3;
+      }
+      .order-title-statu.statu-bgcolor-green{
+        background-color: #6ad2d2;
+      }
+      .order-title-statu.statu-bgcolor-yellow{
+        background-color: #ecc96b;
+      }
+      .order-title-statu.statu-bgcolor-purple{
+        background-color: #78a2de;
+      }
+      .order-title-statu.statu-bgcolor-red{
+        background-color: #ff9998;
+      }
+      .order-title-statu.statu-bgcolor-grey{
+        background-color: #b2b2b2;
+      }
+
+      .order-content{
+        font-size: 14px;
+        color: #808080;
+        line-height: 22px;
+      }
+      .order-date{
+        // padding-right: 8px;
+      }
+      .order-date:after{
+        // content: "&bull;";
+      }
+      .order-bull{
+        padding: 0 8px;
+      }
+      .order-content-status.font-color-blue{
+         color: #60bde3;
+      }
+      .order-content-status.font-color-green{
+        color: #6ad2d2;
+      }
+      .order-content-status.font-color-yellow{
+        color: #ecc96b;
+      }
+      .order-content-status.font-color-purple{
+        color: #78a2de;
+      }
+      .order-content-status.font-color-red{
+        color: #ff9998;
+      }
+      .order-content-status.font-color-grey{
+        color: #b2b2b2;
+      }
+      
+
+      .list-content{
+            background-color: #fff;
+            border-radius: 4px;
+            padding: 0 10px;
+        }
+
+
+    .tab-item{
+      display: none;
+    }
+    .tab-item.show{
+      display: block;
+    }
