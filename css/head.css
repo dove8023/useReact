@@ -2,6 +2,13 @@
         margin: 0;
         padding: 0;
       }
+      .nav{
+        overflow: hidden;
+      }
+      .nav a{
+        float: left;
+        margin: 10px;
+      }
       .tab-button{
           float: left;
           width: 145px;

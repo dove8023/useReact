@@ -38,7 +38,6 @@ class OrderList extends React.Component{
     checkContent(index){
         return index===this.state.currentIndex ? "tab-item show" : "tab-item";
     }
-
     render(){
         return(
             <div className="order-list">
@@ -48,9 +47,9 @@ class OrderList extends React.Component{
                         return (<div onClick={
                             () =>{
                             this.setState({currentIndex: index});
-                            // this.props.change(index);
+                            // this.props.fn(index);
                             // console.log("click" , index);
-                            // this.callMethodOnProps("change" , index);
+                            // this.do();
                             }} key={index} className={content.class + this.checkTitle(index)} key={item.requirementStatus}>
                             <p className="tab-button-count">{item.count}</p>
                             <p className="tab-button-title">{content.text}</p>

@@ -41,14 +41,19 @@ class Login extends React.Component{
             data : currentData
         })
     }
+    say(){
+        console.log("hello");
+    }
     componentDidMount() {
+
+        this.typeChange(2);
         this.setState({
             data : DATA[0]
         });
     }
     render(){
         return(<div>
-                <OrderList statistics={DATA[0].statistics}>
+                <OrderList fn={this.typeChange} statistics={DATA[0].statistics}>
                     <div>
                         <div className="list-content">
                             {this.state.data.list.map((item , index) => {
@@ -60,7 +65,7 @@ class Login extends React.Component{
                     </div>
                     <div>
                         <div className="list-content">
-                            {data1.list.map((item , index) => {
+                            {DATA[1].list.map((item , index) => {
                                 var orderStatu = item.orderStatus 
                                 return (<ListItem key={index} data={item} orderStatu={orderStatu}></ListItem>)
                             })}
@@ -69,7 +74,7 @@ class Login extends React.Component{
                     </div>
                     <div>
                         <div className="list-content">
-                            {data2.list.map((item , index) => {
+                            {DATA[2].list.map((item , index) => {
                                 var orderStatu = item.orderStatus 
                                 return (<ListItem key={index} data={item} orderStatu={orderStatu}></ListItem>)
                             })}
@@ -78,7 +83,7 @@ class Login extends React.Component{
                     </div>
                     <div>
                         <div className="list-content">
-                            {data3.list.map((item , index) => {
+                            {DATA[3].list.map((item , index) => {
                                 var orderStatu = item.orderStatus 
                                 return (<ListItem key={index} data={item} orderStatu={orderStatu}></ListItem>)
                             })}
@@ -87,7 +92,7 @@ class Login extends React.Component{
                     </div>
                     <div>
                         <div className="list-content">
-                            {data4.list.map((item , index) => {
+                            {DATA[4].list.map((item , index) => {
                                 var orderStatu = item.orderStatus 
                                 return (<ListItem key={index} data={item} orderStatu={orderStatu}></ListItem>)
                             })}
@@ -96,7 +101,7 @@ class Login extends React.Component{
                     </div>
                     <div>
                         <div className="list-content">
-                            {data5.list.map((item , index) => {
+                            {DATA[5].list.map((item , index) => {
                                 var orderStatu = item.orderStatus 
                                 return (<ListItem key={index} data={item} orderStatu={orderStatu}></ListItem>)
                             })}
